@@ -1,16 +1,56 @@
-## Hi there 👋
+<h2 align="center">About Me </h2>
 
-<!--
-**lnvdth/lnvdth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+from typing import Tuple, List, Dict
 
-Here are some ideas to get you started:
+class Fivex:
+    pass
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Attributes(Fivex):
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        telegram = "t.me/justfivex"
+        email    = "fivex.vn@gmail.com"
+	    
+        return telegram, email
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['Vietnam', 'English']
+        age   = 21
+		
+        return langs, age
+	
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+        langs = {
+            'expert'      : ['python'],
+            'intermediate': ['c#', 'js'],
+            'learning'    : ['c', 'c++', 'go', 'java']
+        }
+        specialities  = ['web/app reverse engineering', 'fullstack', 'ai']
+        ide           = ['vscode']
+        laptop            = {
+            'Windows': {
+                'custom': {
+                    'processor': 'Intel(R) Core(TM) i7-12700H | 14 cores',
+                    'ram'      : '16gb',
+                    'gpu'      : 'NVIDIA GeForce RTX 3070 Ti Laptop GPU'
+                }
+            }
+        }
+
+	return langs, specialities, ide, laptop
+```
+
+<h2 align="center">Skills </h2>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,golang,vscode,androidstudio,c,cs,cpp,js,css,html" />
+  </a>
+</p>
+
+<p href="https://discord.gg/onlp" align="center">
+    <img alt="" src="https://github-readme-stats.vercel.app/api?username=lnvdth&theme=tokyonight&show_icons=true">
+</p>
