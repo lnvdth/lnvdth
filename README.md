@@ -30,7 +30,7 @@ class Attributes(Fivex):
         }
         specialities  = ['web/app reverse engineering', 'fullstack', 'ai']
         ide           = ['vscode']
-        laptop            = {
+        laptop        = {
             'Windows': {
                 'custom': {
                     'processor': 'Intel(R) Core(TM) i7-12700H | 14 cores',
@@ -40,7 +40,7 @@ class Attributes(Fivex):
             }
         }
 
-	return langs, specialities, ide, laptop
+		return langs, specialities, ide, laptop
 ```
 
 <h2 align="center">Skills </h2>
