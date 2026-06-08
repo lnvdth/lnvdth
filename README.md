@@ -8,7 +8,7 @@ class Fivex:
 
 class Attributes(Fivex):
     @property
-    def contact(self) -> Tuple[str, str, str]:
+    def contact(self) -> Tuple[str, str]:
         telegram = "t.me/justfivex"
         email    = "fivex.vn@gmail.com"
 	    
